@@ -24,7 +24,7 @@ $ make config-gcc
 $ make
 $ sudo make install
 ```
-![Yosys Installation Status](.images/yosys.png)
+![Yosys Installation Status](images/yosys.png)
 
 
 ### ➤ iverilog
@@ -32,7 +32,7 @@ $ sudo make install
 sudo apt-get update
 sudo apt-get install iverilog
 ```
-![IVerilog Installation Status](.images/iverilog.png)
+![IVerilog Installation Status](images/iverilog.png)
 
 
 ### ➤ gtkwave
@@ -40,4 +40,4 @@ sudo apt-get install iverilog
 sudo apt-get update
 sudo apt install gtkwave 
 ```
-![GTKWave Installation Status](.images/gtkwave.png)
+![GTKWave Installation Status](images/gtkwave.png)
