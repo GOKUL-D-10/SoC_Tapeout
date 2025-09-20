@@ -1,5 +1,6 @@
-## System Check
+# System & Tool Check
 
+## 💻 System Check
 | Component | Specification   |
 |-----------|-----------------|
 | RAM       | 6 GB            |
@@ -7,9 +8,10 @@
 | OS        | Ubuntu 20.04+   |
 | CPU       | 4 vCPU          |
 
-## Tool Check
+## 🛠️ Tool Check
 
-### Yosys
+### ➤ Yosys
+```bash
 $ sudo apt-get update
 $ git clone https://github.com/YosysHQ/yosys.git
 $ cd yosys
@@ -21,19 +23,21 @@ $ sudo apt-get install build-essential clang bison flex \
 $ make config-gcc
 $ make
 $ sudo make install
+```
+![Yosys Installation Status](.images/yosys.png)
 
-![Alt text](.Week0/images/yosys.png)
 
-
-### iverilog
+### ➤ iverilog
+```bash
 sudo apt-get update
 sudo apt-get install iverilog
+```
+![IVerilog Installation Status](.images/iverilog.png)
 
-![Alt text](.Week0/images/iverilog.png)
 
-
-### gtkwave
+### ➤ gtkwave
+```bash
 sudo apt-get update
 sudo apt install gtkwave 
-
-![Alt text](.Week0/images/gtkwave.png)
+```
+![GTKWave Installation Status](.images/gtkwave.png)
